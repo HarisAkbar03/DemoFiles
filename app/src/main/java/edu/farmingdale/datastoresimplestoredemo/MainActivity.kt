@@ -84,7 +84,6 @@ fun DataStoreDemo(modifier: Modifier) {
         )
 
         Button(onClick = {
-
             coroutineScope.launch {
                 store.saveUsername(userInput)
                 store.saveHighScore(10)
